@@ -16,12 +16,12 @@ function App() {
   const socialLinks = [
     {
       icon: <Twitter className="w-6 h-6" />,
-      href: "https://twitter.com",
+      href: "https://x.com/Akmjot_singh",
       label: "Twitter",
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ekamjot-singh002/",
       label: "LinkedIn",
     },
     {
