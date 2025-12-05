@@ -13,19 +13,11 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "AI Task Manager",
+    title: "Hostel maintenance ",
     more : "build by ekamjot for the people and not by people ",
     description:
-      "Get instant guidance and smart task organization. Prioritize your goals with intelligent scheduling and predictive insights.",
+      "Get instant Cleaner bookings for rooms and washrooms , real time Availability cheacker .",
     backgroundImage: "https://sheryians.com/Assets/images/companies/card2.png",
-  },
-  {
-    id: 3,
-    title: "Social Media Dashboard",
-    more : "build by ekamjot for the people and not by people ",
-    description:
-      "Analyze, manage, and automate your social presence. Unified metrics, auto reports, and smart content scheduling.",
-    backgroundImage: "https://sheryians.com/Assets/images/companies/card3.png",
   },
 ];
 
@@ -89,7 +81,7 @@ function Projects() {
                     
                     {/* Project title at bottom */}
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[4.7rem] font-semibold urbanist-bold leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
-                      <a href="" className="hover:underline">{project.title}</a>
+                      <a href="https://github.com/workofEKam" className="hover:underline">{project.title}</a>
                     </h1>
                   </div>
                 </div>
