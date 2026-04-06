@@ -16,31 +16,24 @@ function App() {
   const socialLinks = [
     {
       icon: <Twitter className="w-6 h-6" />,
-      href: "https://twitter.com",
+      href: "https://x.com/Akmjot_singh",
       label: "Twitter",
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ekamjot-singh002/",
       label: "LinkedIn",
     },
     {
       icon: <Github className="w-6 h-6" />,
-      href: "https://github.com",
+      href: "https://github.com/workofEKam/",
       label: "GitHub",
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      href: "mailto:contact@example.com",
+      href: "mailto:ekamjotsing002@gmail.com",
       label: "Email",
     },
-  ];
-
-  const navLinks = [
-    { label: "Pricing", href: "/" },
-    { label: "Templates", href: "/" },
-    { label: "About", href: "/" },
-    { label: "Contact", href: "/" },
   ];
 
   return (
@@ -51,14 +44,13 @@ function App() {
       <Skill />
       <Projects />
       <Footer
-        brandName="Portfolio"
+        brandName="EKAMJOT"
         brandDescription="Building amazing web experiences with modern technologies. Passionate about creating intuitive and performant applications."
         socialLinks={socialLinks}
-        navLinks={navLinks}
-        creatorName="Your Name"
-        creatorUrl="https://yourwebsite.com"
+        creatorName="Ekamjot Singh"
+        creatorUrl=""
         brandIcon={
-          <NotepadTextDashed className="w-8 sm:w-10 md:w-14 h-8 sm:h-10 md:h-14 text-background drop-shadow-lg" />
+          <a href='https://drive.google.com/file/d/1nS9j9befEz5o567KvbKIsH9mhKR1qJuI/view'><NotepadTextDashed className="w-8 sm:w-10 md:w-14 h-8 sm:h-10 md:h-14 text-background drop-shadow-lg" /></a>
         }
       />
     </div>
