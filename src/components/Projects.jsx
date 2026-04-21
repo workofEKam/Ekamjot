@@ -5,19 +5,21 @@ import { useScroll, useTransform, motion } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    more : "build by ekamjot for the people and not by people ",
+    title: "Real Time Notes Sync",
+    more : "Collaborative notes application featuring instant synchronization using Firebase Firestore database",
     description:
-      "Build, manage, and scale your store seamlessly. Real-time inventory, secure payments, and powerful analytics—all in one place.",
-    backgroundImage: "https://sheryians.com/Assets/images/companies/card1.png",
+      "A responsive React application providing room-based organization for users to create and manage shared digital content.",
+    backgroundImage: '/src/assets/notes.png',
+    link: "https://workofekam.github.io/NotesTaking/",
   },
   {
     id: 2,
-    title: "Hostel maintenance ",
-    more : "build by ekamjot for the people and not by people ",
+    title: "CSE Faculty Bibliometric Analysis",
+    more : "Systematic research productivity analysis using data extracted from Google Scholar.",
     description:
-      "Get instant Cleaner bookings for rooms and washrooms , real time Availability cheacker .",
-    backgroundImage: "https://sheryians.com/Assets/images/companies/card2.png",
+      "This project employs first principles to visualize temporal trends and thematic focus in computer science publications.",
+    backgroundImage: "/src/assets/DVPD.png",
+    link: "https://github.com/workofEKam/DATA_visualization",
   },
 ];
 
@@ -81,7 +83,7 @@ function Projects() {
                     
                     {/* Project title at bottom */}
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[4.7rem] font-semibold urbanist-bold leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed">
-                      <a href="https://github.com/workofEKam" className="hover:underline">{project.title}</a>
+                      <a href={project.link} className="hover:underline">{project.title}</a>
                     </h1>
                   </div>
                 </div>

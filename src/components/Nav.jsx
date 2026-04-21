@@ -24,9 +24,9 @@ function Nav() {
       {/* Logo */}
       <div className="flex items-center gap-2 text-white">
         <img 
-          src="https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png" 
+          src="/src/assets/react.svg" 
           alt="logo" 
-          className="w-8 h-8 rounded-full" 
+          className="w-8 h-8 rounded-full invert" 
         />
         <span className="font-semibold">EKAMJOT</span>
       </div>
