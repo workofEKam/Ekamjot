@@ -23,11 +23,7 @@ function Nav() {
     <nav className="w-full bg-transparent flex items-center justify-between px-4 md:px-8 py-6 font-sans antialiased absolute z-50">
       {/* Logo */}
       <div className="flex items-center gap-2 text-white">
-        <img 
-          src="/src/assets/react.svg" 
-          alt="logo" 
-          className="w-8 h-8 rounded-full invert" 
-        />
+
         <span className="font-semibold">EKAMJOT</span>
       </div>
 
