@@ -9,7 +9,7 @@ const projectsData = [
     more : "Collaborative notes application featuring instant synchronization using Firebase Firestore database",
     description:
       "A responsive React application providing room-based organization for users to create and manage shared digital content.",
-    backgroundImage: '/src/assets/notes.png',
+    backgroundImage: 'https://res.cloudinary.com/difesoabs/image/upload/q_auto/f_auto/v1777181419/notes_sl7gbf.png',
     link: "https://workofekam.github.io/NotesTaking/",
   },
   {
@@ -18,7 +18,7 @@ const projectsData = [
     more : "Systematic research productivity analysis using data extracted from Google Scholar.",
     description:
       "This project employs first principles to visualize temporal trends and thematic focus in computer science publications.",
-    backgroundImage: "/src/assets/DVPD.png",
+    backgroundImage: "https://res.cloudinary.com/difesoabs/image/upload/q_auto/f_auto/v1777181419/DVPD_loa4mb.png",
     link: "https://github.com/workofEKam/DATA_visualization",
   },
 ];
