@@ -31,7 +31,7 @@ function Nav() {
       <ul className="hidden md:flex gap-8 text-gray-400 bg-neutral-300/20 hover:bg-neutral-300/30 px-4 py-2 rounded-3xl backdrop-blur-sm">
         {navLinks.map((link) => (
           <li key={link.id}>
-            <button 
+            <button
               onClick={() => scrollToSection(link.id)}
               className="hover:text-white transition-colors duration-200"
             >
@@ -42,12 +42,12 @@ function Nav() {
       </ul>
 
       {/* Desktop Resume Button */}
-      <a href="https://drive.google.com/file/d/1nS9j9befEz5o567KvbKIsH9mhKR1qJuI/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1geC4GjDefxFELLSBn4fivJeMUqx2hPy8/view?usp=sharing">
         <button className="hidden md:block text-gray-400 hover:text-white bg-neutral-300/20 hover:bg-neutral-300/30 px-4 py-2 rounded-3xl backdrop-blur-sm transition-all duration-200">
-        Resume
-      </button>
+          Resume
+        </button>
       </a>
-      
+
 
       {/* Mobile Menu Button */}
       <button
